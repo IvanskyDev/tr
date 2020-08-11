@@ -1,0 +1,34 @@
+brew tap ethereum/ethereum
+brew install ethereum
+brew install ethereum --devel
+sudo add-apt-repository -y ppa:ethereum/ethereum
+sudo apt-get update
+sudo apt-get install ethereum
+sudo apt-get update
+sudo apt-get install ethereum-unstable
+pkg install go-ethereum
+geth account new
+cd /usr/ports/net-p2p/go-ethereum
+make install
+pacman -S geth
+docker pull ethereum/client-go
+docker run -it -p 30303:30303 ethereum/client-go
+go get -d github.com/ethereum/go-ethereum
+go install github.com/ethereum/go-ethereum/cmd/geth
+C:\Windows\system32> choco install git
+C:\Windows\system32> choco install golang
+C:\Windows\system32> choco install mingw
+C:\Users\xxx> mkdir src\github.com\ethereum
+C:\Users\xxx> git clone https://github.com/ethereum/go-ethereum src\github.com\ethereum\go-ethereum
+C:\Users\xxx> cd src\github.com\ethereum\go-ethereum
+C:\Users\xxx> go get -u -v golang.org/x/net/context
+C:\Users\xxx\src\github.com\ethereum\go-ethereum> go install -v ./cmd/...
+git clone https://github.com/ethereum/go-ethereum
+pkg install go
+cd go-ethereum
+make geth
+cd go-ethereum
+CC=clang make geth
+git clone https://github.com/ethereum/go-ethereum.git
+cd go-ethereum
+make geth
